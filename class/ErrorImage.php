@@ -51,7 +51,7 @@ class ErrorImage
 
 		$this->canvas->annotateImage($draw, 3, 3, 0, $headingText);
 
-		$this->canvas->setImageFormat('png');
+		$this->canvas->setImageFormat('jpeg');
 
 		header('Content-Type: image/'.$this->canvas->getImageFormat());
 
